@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.soilinfo.soilamendmentcalculator.config.RSAKeyProperties",
+      "sourceType": "com.soilinfo.soilamendmentcalculator.config.RSAKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.soilinfo.soilamendmentcalculator.config.RSAKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.soilinfo.soilamendmentcalculator.config.RSAKeyProperties"
+    }
+  ],
+  "hints": []
+}
